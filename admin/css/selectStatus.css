@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Ysabeau:ital,wght@0,100;0,200;1,100;1,200&display=swap');
+
+.option{    
+    border:2px solid grey ;
+    border-radius: 10%;
+    width: fit-content;
+    padding: 5px;
+    margin: auto;
+    background: rgb(207, 204, 204);
+    filter: grayscale(100%);
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+
+a{
+    text-decoration: none;
+}
+
+.text{
+    transition: all 100ms ease-in-out;
+    color: gray;
+    font-size: 20px;
+}
+.text-ct{
+    text-align: center;
+}
+
+.option:hover{
+    padding: 10px;
+    filter: grayscale(0%);    
+    border:2px solid #444644;
+    color: #000000;
+    transition: all 100ms ease-in-out;
+    background: rgb(193,200,232);
+    background: linear-gradient(180deg, rgba(193,200,232,1) 18%, rgba(132,206,235,1) 65%, rgba(0,212,255,1) 82%);
+}
+
+
+.logo-ct{
+    width: 80px; 
+    text-align: center;
+    font-size: 40px; 
+    font-weight: 800;  
+    transition: all 300ms ease;
+    font-family: 'Ysabeau', sans-serif;
+    position: relative;
+    bottom: 9px;
+
+}
+
+.month{
+    font-size: 20px;
+    Font-weight: 900;
+    transition: all 300ms ease;
+    font-family: 'Ysabeau', sans-serif;
+}
+
+.option2{
+    border:2px solid grey ;
+    border-radius: 10%;
+    width: fit-content;
+    padding: 10px;
+    padding-bottom: 8px;
+    margin: auto;
+    background: rgb(207, 204, 204);
+    filter: grayscale(100%);
+    transition: all 300ms ease-in-out;
+    cursor: pointer;
+}
+.option2:hover{
+    padding: 12px;
+    filter: grayscale(0%);    
+    border:2px solid #444644;
+    color: #000000;
+    transition: all 100ms ease-in-out;
+    background: rgb(193,200,232);
+    background: linear-gradient(180deg, rgba(193,200,232,1) 18%, rgba(132,206,235,1) 65%, rgba(0,212,255,1) 82%);
+}
+.ct{
+    padding: 10px;
+}
